@@ -69,13 +69,26 @@ body {
     background: pink;
 }
 
+.portfolio img {
+    width: 100%;
+    height: auto;
+
+}
+
 .primary {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
     flex-basis: 100%;
     flex-grow: 2;
 }
 
 .secondary {
     flex-basis: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+   
 }
 
 .contact {
