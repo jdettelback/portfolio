@@ -6,6 +6,8 @@
 
 ### There is a link to my github page.  My email is included so I can be contacted directly.
 
-![screenshot](https://raw.githubusercontent.com/jdettelback/portfolio/main/Assets/portfolioscreenshot.png)
+![screenshot](https://raw.githubusercontent.com/jdettelback/portfolio/main/Assets/images/portfolioscreenshot.png)
 
 ### This website utilizes flexbox in its structure and has responsive design built in, making it comfortably viewable on all screen sizes.
+
+https://github.com/jdettelback/portfolio
