@@ -1,5 +1,5 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,6 +10,8 @@ body {
 .cv {
     display: flex;
     flex-flow: column;
+    align-items: space-between;
+    align-content: center;
 }
 
 .banner {
@@ -34,18 +36,16 @@ body {
     flex-flow: row wrap;
     justify-content: flex-end;
     align-items: center;
-    
     list-style: none;
     margin: 10px;
     padding: 20px;
     background: rgb(129, 167, 129);
-
     flex-grow: 3;
 }
 
 .navbar a {
     text-decoration: none;
-    display: block;
+    display: flex;
     padding: 10px;
     color: black;
     font-size: 28px;
@@ -87,8 +87,6 @@ body {
 }
 
 .primary {
-    display: flex;
-    flex-flow: column;
     align-items: center;
     flex-basis: 100%;
     flex-grow: 2;
@@ -96,16 +94,18 @@ body {
 }
 
 .secondary {
-    flex-basis: 50%;
-    position: relative;
-    display: flex;
-    flex-flow: column;
     align-items: center;
+    flex-basis: 50%;
+    flex-wrap: wrap;
     padding: 1%;
 }
 
 .secondary a {
-    width: 100%;
+    align-items: center;
+    justify-items: center;
+    width: 50%;
+    height: auto;
+    padding: 1%;
 }
 
 .bottomleft {

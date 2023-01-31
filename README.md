@@ -10,4 +10,4 @@
 
 ### This website utilizes flexbox in its structure and has responsive design built in, making it comfortably viewable on all screen sizes.
 
-https://github.com/jdettelback/portfolio
+https://jdettelback.github.io/portfolio/
